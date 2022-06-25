@@ -12,7 +12,7 @@ class BlogPostField extends Component {
 
     render (){
         return (
-            <textarea className="inputText" rows="20" cols="100" onBlur={(e) => this.countChars(e)}></textarea>
+            <textarea className="inputText" rows="20" cols="100" onChange={(e) => this.countChars(e)}></textarea>
         )
     }
     
